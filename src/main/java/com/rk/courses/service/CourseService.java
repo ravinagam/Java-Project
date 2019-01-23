@@ -24,7 +24,7 @@ public class CourseService {
 
     public Course getCourseDetails(String name)
     {
-        return courseDAO.getCourseDetails(names);
+        return courseDAO.getCourseDetails(name);
     }
 
 }
