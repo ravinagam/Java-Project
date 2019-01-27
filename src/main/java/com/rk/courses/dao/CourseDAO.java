@@ -16,7 +16,7 @@ public class CourseDAO {
 
     @Autowired
     Course course;
-    int courseFeeAI = 22000;
+    int courseFeeAI = 22500;
     int courseFeeML = 20000;
     public List<Course> getAllCourseDetails()
     {
