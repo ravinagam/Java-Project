@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by j1007652 on 8/20/2018.
+ * Created by j1007652 on 1/20/2019.
  */
 
 @Component
@@ -17,7 +17,7 @@ public class CourseDAO {
     @Autowired
     Course course;
     int courseFeeAI = 23000;
-    int courseFeeML = 22000;
+    int courseFeeML = 24000;
     public List<Course> getAllCourseDetails()
     {
         List<Course> courseList = new ArrayList<Course>();
