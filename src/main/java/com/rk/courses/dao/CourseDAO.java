@@ -17,7 +17,7 @@ public class CourseDAO {
     @Autowired
     Course course;
     int courseFeeAI = 23000;
-    int courseFeeML = 21000;
+    int courseFeeML = 22000;
     public List<Course> getAllCourseDetails()
     {
         List<Course> courseList = new ArrayList<Course>();
